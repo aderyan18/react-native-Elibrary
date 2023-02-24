@@ -24,10 +24,10 @@ class SplashScreen extends Component {
   render() {
     return (
       <View style={[styles.container]}>
-        <Image
+        {/* <Image
           style={[styles.tinyLogo]}
           source={require('../../Assets/logo_footer.png')}
-        />
+        /> */}
         <Text
           style={{
             fontSize: wp(5.5),
@@ -35,7 +35,7 @@ class SplashScreen extends Component {
             textAlign: 'center',
             color: COLOR.BLACK,
           }}>
-          DIPANEGARA COMPUTER CLUB
+          SplashScreen
         </Text>
       </View>
     );

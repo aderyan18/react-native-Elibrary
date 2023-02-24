@@ -5,10 +5,10 @@ import {
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 
-export default function Ebook() {
+export default function Library() {
   return (
     <View>
-      <Text>Ebook</Text>
+      <Text>Library</Text>
     </View>
   );
 }

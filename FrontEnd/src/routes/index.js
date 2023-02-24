@@ -12,9 +12,9 @@ import {COLOR} from '../Styles/color';
 import Login from '../View/Login';
 import splashScreen from '../View/SplashScreen';
 import Home from '../View/Home';
-import Artikel from '../View/Artikel';
-import Ebook from '../View/Ebook';
-import Account from '../View/Akun.js';
+import Search from '../View/Search';
+import Library from '../View/Library';
+import Account from '../View/Account/index.js';
 
 const Tab = createMaterialBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -28,7 +28,7 @@ function MainScreen() {
       headerShown={false}
       barStyle={{backgroundColor: '#F3F2F2'}}>
       <Tab.Screen
-        name="Beranda"
+        name="Main"
         component={Home}
         options={{
           tabBarIcon: ({focused}) => (
@@ -41,8 +41,8 @@ function MainScreen() {
         }}
       />
       <Tab.Screen
-        name="Artikel"
-        component={Artikel}
+        name="Search"
+        component={Search}
         options={{
           tabBarIcon: ({focused}) => (
             <Icon
@@ -54,8 +54,8 @@ function MainScreen() {
         }}
       />
       <Tab.Screen
-        name="E-Book"
-        component={Ebook}
+        name="Library"
+        component={Library}
         options={{
           tabBarIcon: ({focused}) => (
             <Icon

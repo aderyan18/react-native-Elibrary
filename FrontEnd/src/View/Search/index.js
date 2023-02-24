@@ -5,10 +5,10 @@ import {
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 
-export default function Artikel() {
+export default function Search() {
   return (
     <View>
-      <Text>Artikel</Text>
+      <Text>Search</Text>
     </View>
   );
 }

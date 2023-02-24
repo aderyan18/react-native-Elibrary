@@ -54,10 +54,10 @@ export default function Login({navigation}) {
           }}>
           {/* Image Start */}
           <View style={[styles.ContainerImage]}>
-            <Image
+            {/* <Image
               style={[styles.Image]}
-              source={require('../../Assets/logo_footer.png')}
-            />
+              // source={require('../../Assets/logo_footer.png')}
+            /> */}
           </View>
           {/* Image End */}
 
